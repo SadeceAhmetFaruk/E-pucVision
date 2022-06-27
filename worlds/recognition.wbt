@@ -1,0 +1,218 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.007898649735879152 0.004313928160213881 0.9999594998579585 2.1422038584987
+  position 6.237742031230276 -0.7561872587143801 -0.878072771662636
+  follow "e-puck"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -1.15
+  floorSize 100 100
+}
+Cypress {
+  translation 4.41 1.43 -1.36
+}
+E-puck {
+  hidden position_0_0 318.4229270123713
+  hidden position_0_1 369.1514810790924
+  hidden linearVelocity_0 0.008556043771142227 -0.0027677902045714817 1.0854940010602836e-05
+  hidden angularVelocity_0 0.0004386028459420015 -0.00022446797377441386 0.7865326590138058
+  hidden rotation_1 0 -1 0 2.0290795783373863
+  hidden linearVelocity_1 0.02798135720997104 -0.009174019936848563 -2.3825730807835957e-06
+  hidden angularVelocity_1 0.4901330147799217 1.4915387517420444 0.787434045037752
+  hidden rotation_2 0 -1 0 1.56600796905254
+  hidden linearVelocity_2 -0.010755426352701075 0.003686844001713212 -1.6825977845158553e-05
+  hidden angularVelocity_2 -1.985070873709969 -5.958119286044899 0.8284190371418141
+  translation 5.720093761010491 0.8899937306467801 -1.1501090343613976
+  rotation 0.00014202556858519414 0.0008950580641780514 0.9999995893498157 2.8396050931629575
+  controller "gps_controlller"
+  turretSlot [
+    Display {
+    }
+    Camera {
+      name "camera1"
+      lens Lens {
+      }
+      focus Focus {
+      }
+      zoom Zoom {
+      }
+      recognition Recognition {
+        frameThickness 3
+      }
+      lensFlare LensFlare {
+      }
+    }
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
+Solid {
+  translation 4.07 -0.39 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 4.1 0.33 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(1)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 3.55 0.3 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(2)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 3.75 -1.35 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(3)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 3.75 -0.62 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(4)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 4.32 -1 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(5)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 3.75 0 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(6)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 4.79 -0.67 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(7)"
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 3.75 0.49 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+  name "solid(8)"
+  recognitionColors [
+    1 0 0
+  ]
+}

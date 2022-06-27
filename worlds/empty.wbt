@@ -1,0 +1,66 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.03674954125268506 -0.5531845242878191 -0.8322477715837854 6.123799739857765
+  position -1.2440473769887763 0.211969019558359 -0.0817188278681884
+  follow "e-puck"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0 -1.15
+  floorSize 100 100
+}
+Cypress {
+  translation 4.41 0 -1.36
+}
+E-puck {
+  hidden linearVelocity_0 0.00016639905607095614 6.675768467067297e-13 -1.1529395749161262e-09
+  hidden angularVelocity_0 -4.427587203293587e-11 0.011093241882357205 1.153967258940623e-11
+  hidden translation_1 0 0.026 0.02
+  hidden rotation_1 0 1 0 4.452248149176817
+  hidden linearVelocity_1 0.00022186479502597445 8.864439499556274e-13 -2.3408741602183896e-11
+  hidden angularVelocity_1 -4.3908287562742674e-11 0.011093241880584607 1.6326758182112732e-10
+  hidden translation_2 0 -0.026000000000000006 0.02
+  hidden rotation_2 0 1 0 4.452248149183093
+  hidden linearVelocity_2 0.00022186479546592723 8.914369416352847e-13 -2.4942448106954173e-11
+  hidden angularVelocity_2 -4.508873225602888e-11 0.011093241880602208 -1.4018838018181376e-10
+  translation 1.2316198263184235 7.13853055632411e-10 -1.1500639624505122
+  rotation -2.657434159698531e-06 0.9999999995939312 2.837385770882331e-05 0.00023636382028501815
+  controller "gps_controlller"
+  turretSlot [
+    Display {
+    }
+    Camera {
+      name "camera1"
+      lens Lens {
+      }
+      recognition Recognition {
+        frameThickness 3
+      }
+    }
+    Compass {
+    }
+    GPS {
+    }
+  ]
+}
+Solid {
+  translation 2.41 0 -1.09
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Cone {
+        bottomRadius 0.1
+        height 0.2
+      }
+    }
+  ]
+}
